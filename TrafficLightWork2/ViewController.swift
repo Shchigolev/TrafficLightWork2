@@ -38,6 +38,23 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startButtonChange() {
+        
+        startButton.setTitle("NEXT", for: .normal)
+        
+        switch currentLight {
+        case .red:
+            greenLight.alpha = 0.3
+            redLight.alpha = 1
+            currentLight = .yellow
+        case .yellow:
+            redLight.alpha = 0.3
+            yellowLight.alpha = 1
+            currentLight = .green
+        case .green:
+            greenLight.alpha = 1
+            yellowLight.alpha = 0.3
+            currentLight = .red
+        }
     }
 }
 
