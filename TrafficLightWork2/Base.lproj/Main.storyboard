@@ -44,6 +44,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="START"/>
+                                <connections>
+                                    <action selector="startButtonChange" destination="BYZ-38-t0r" eventType="touchUpInside" id="U3K-kg-u8Z"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -63,6 +66,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1PM-zW-KCc" secondAttribute="trailing" id="nej-Vw-8f2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLight" destination="1JW-ud-eLb" id="Li7-wu-mRd"/>
+                        <outlet property="redLight" destination="bP2-Yo-OLU" id="pTb-Ef-ctn"/>
+                        <outlet property="startButton" destination="1PM-zW-KCc" id="xRz-jI-Fwb"/>
+                        <outlet property="yellowLight" destination="xfw-AF-Jhw" id="bdf-00-Wfs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -2,12 +2,13 @@
 //  AppDelegate.swift
 //  TrafficLightWork2
 //
-//  Created by Любовь Зеленова on 16.09.2022.
+//  Created by Kirill Shchigolev on 16.09.2022.
 //
 
 import UIKit
 
 @main
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 

@@ -2,18 +2,21 @@
 //  ViewController.swift
 //  TrafficLightWork2
 //
-//  Created by Любовь Зеленова on 16.09.2022.
+//  Created by Kirill Shchigolev on 16.09.2022.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var redLight: UIView!
+    @IBOutlet var yellowLight: UIView!
+    @IBOutlet var greenLight: UIView!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet var startButton: UIButton!
+
+    @IBAction func startButtonChange() {
     }
-
-
 }
+
 
