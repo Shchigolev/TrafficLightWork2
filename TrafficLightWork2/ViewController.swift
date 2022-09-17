@@ -8,11 +8,12 @@
 
 import UIKit
 
-enum CurrentLight {
-    case red, yellow, green
-}
 
 class ViewController: UIViewController {
+    
+    enum CurrentLight {
+        case red, yellow, green
+    }
     
     @IBOutlet var redLight: UIView!
     @IBOutlet var yellowLight: UIView!
